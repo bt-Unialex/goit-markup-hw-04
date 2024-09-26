@@ -1,4 +1,6 @@
 body {
+  /*margin: 0;
+  width: 1440px;*/
   font-family: "Roboto", sans-serif;
   color: #434455; /*SLATE*/
   background-color: #fff;
@@ -14,10 +16,30 @@ a {
 li {
   list-style-type: none;
 }
-
+/*header {
+  display: flex;
+  height: 72px;
+  padding: 0 156px;
+  justify-content: space-between;
+}*/
+/*nav,
+address {
+  margin: auto 0;
+  display: flex;
+}*/
+/*nav ul,
+address ul {
+  margin: 0 0 0 76px;
+  display: flex;
+  padding: 0;
+}*/
 nav li a {
+  /*margin-right: 40px;*/
   color: #2e2f42;
 }
+/*address li a {
+  margin-left: 40px;
+}*/
 .nav-text {
   font-weight: 500;
   line-height: 1.5;
@@ -26,7 +48,9 @@ nav li a {
 .nav-text:hover,
 .nav-text:focus,
 .addres-text:hover,
-.addres-text:focus {
+.addres-text:focus,
+.title-button:hover,
+.title-button:focus {
   color: #404bbf;
 }
 
@@ -55,16 +79,24 @@ header .logo-secondpart {
 
 .title-section {
   background-color: #2e2f42;
-  text-align: center;
+  /*height: 600px;
+  padding-top: 188px;
+  text-align: center;*/
 }
 .title-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  /*margin: 0 472px 48px;
+  text-align: center;*/
   color: #fff;
 }
 .title-button {
+  /*border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;*/
   background: #4d5ae5;
   cursor: pointer;
 
@@ -74,27 +106,46 @@ header .logo-secondpart {
   color: #fff;
   letter-spacing: 0.04em;
 }
-.title-button:hover,
-.title-button:focus {
-  background-color: #404bbf;
-}
+
+/*.goals {
+  padding: 120px 156px;
+}*/
+
 .goals-header {
   color: #fff;
+  /*margin: 0;
+  position: absolute;
+  left: 0;*/
 }
+/*.goals-wrapper {
+  margin: 0;
+  width: 1128px;
+  padding: 0;
+  display: flex;
+}*/
+/*.goals-wrapper li {
+  margin-right: 24px;
+}*/
 .goals-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  /*width: 264px;
+  margin-top: 0;
+  margin-bottom: 8px;*/
 }
 .goals-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /*width: 264px;
+  margin-top: 0;
+  margin-bottom: 0;*/
 }
-/*-------------------------------------3 SECTION----------------------------------*/
 .team {
+  /*padding: 120px 156px;*/
   background: #f4f4fd;
 }
 .team-title {
@@ -102,9 +153,19 @@ header .logo-secondpart {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;*/
   text-transform: capitalize;
 }
+/*.team-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}*/
+/*.team-wrapper li {
+  margin-right: 24px;
+}*/
 .team-item {
   background-color: #ffffff;
 }
@@ -113,36 +174,62 @@ header .logo-secondpart {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  /*text-align: center;
+  margin-top: 32px;
+  margin-bottom: 0;*/
 }
 .team-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /*text-align: center;
+  margin-top: 8px;
+  margin-bottom: 0;*/
 }
-/*-------------------------------------4 SECTION----------------------------------*/
+/*.portfolio {
+  padding: 120px 156px;
+}*/
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
+  /*text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;*/
 }
+/*.portfolio-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}*/
+/*.portfolio-wrapper li {
+  margin-right: 24px;
+}*/
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  /*margin-top: 32px;
+  margin-bottom: 0;*/
 }
 .portfolio-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /*margin-top: 8px;
+  margin-bottom: 32px;*/
 }
 /*-------------------------------------FOOTER----------------------------------*/
 .footer-section {
+  /*padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  height: 312px;*/
   background: #2e2f42;
 }
 
@@ -155,4 +242,5 @@ footer .logo-secondpart {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  /*width: 264px;*/
 }
