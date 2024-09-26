@@ -48,9 +48,7 @@ nav li a {
 .nav-text:hover,
 .nav-text:focus,
 .addres-text:hover,
-.addres-text:focus,
-.title-button:hover,
-.title-button:focus {
+.addres-text:focus {
   color: #404bbf;
 }
 
@@ -106,6 +104,10 @@ header .logo-secondpart {
   color: #fff;
   letter-spacing: 0.04em;
 }
+.title-button:hover,
+.title-button:focus {
+  background-color: #404bbf;
+}
 
 /*.goals {
   padding: 120px 156px;
@@ -144,6 +146,8 @@ header .logo-secondpart {
   margin-top: 0;
   margin-bottom: 0;*/
 }
+/*-------------------------------------3 SECTION----------------------------------*/
+
 .team {
   /*padding: 120px 156px;*/
   background: #f4f4fd;
@@ -187,6 +191,8 @@ header .logo-secondpart {
   margin-top: 8px;
   margin-bottom: 0;*/
 }
+/*-------------------------------------4 SECTION----------------------------------*/
+
 /*.portfolio {
   padding: 120px 156px;
 }*/
