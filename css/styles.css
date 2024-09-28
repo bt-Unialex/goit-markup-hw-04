@@ -69,16 +69,17 @@ img {
 .addres-menu {
   display: flex;
   gap: 40px;
-}
-.nav-menu-item {
   padding: 24px 0;
 }
+/*.nav-menu-item {
+  padding: 24px 0;
+}*/
 .nav-text {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 24px 0;
+  padding: 24px 0;
 }
 .nav-text:hover,
 .nav-text:focus,
@@ -236,7 +237,7 @@ header .logo-secondpart {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .portfolio-type {
   font-weight: 400;
