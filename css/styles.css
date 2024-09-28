@@ -33,6 +33,21 @@ img {
   /*width: 1158px;*/
   margin: 0 auto;
 }
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*-------------------------------------Header----------------------------------*/
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -55,7 +70,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.nav-menu-irem {
+.nav-menu-item {
   padding: 24px 0;
 }
 .nav-text {
@@ -86,10 +101,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 header .logo-secondpart {
   color: #2e2f42;
-  margin-right: 76px;
 }
 /*-------------------------------------1 SECTION----------------------------------*/
 .title-section {
@@ -130,12 +145,6 @@ header .logo-secondpart {
   background-color: #404bbf;
 }
 /*-------------------------------------2 SECTION----------------------------------*/
-/*.goals-header {
-  display: none;
-}*/
-.visually-hidden {
-  display: none;
-}
 .goals-wrapper {
   display: flex;
   gap: 24px;
