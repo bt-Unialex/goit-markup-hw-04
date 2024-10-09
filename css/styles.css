@@ -60,6 +60,19 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+header .logo-secondpart {
+  color: #2e2f42;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -69,10 +82,10 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0;
-  position: relative;
 }
-/*.nav-menu-item {
-}*/
+.nav-menu-item {
+  width: 100%;
+}
 .nav-text {
   font-weight: 500;
   line-height: 1.5;
@@ -81,7 +94,7 @@ img {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-menu:nth-child(1) .nav-menu-item .nav-text {
+.nav-menu-item:nth-child(1) .nav-text {
   position: relative;
   color: #404bbf;
 }
@@ -108,20 +121,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-
-header .logo-secondpart {
-  color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*-------------------------------------1 SECTION----------------------------------*/
 .title-section {
@@ -272,6 +272,10 @@ header .logo-secondpart {
 }
 .team-item:hover .socmedia-link,
 .team-item:focus .socmedia-link {
+  background-color: #404bbf;
+}
+.socmedia-link:hover,
+.socmedia-link:focus {
   background-color: #404bbf;
 }
 
