@@ -98,7 +98,7 @@ header .logo-secondpart {
   position: relative;
   color: #404bbf;
 }
-.nav-text::after {
+.nav-menu-item:nth-child(1) .nav-text::after {
   position: absolute;
   left: 0;
   bottom: -1px;
