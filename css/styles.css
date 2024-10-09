@@ -73,7 +73,7 @@ img {
 }
 /*.nav-menu-item {
 }*/
-.nav-menu-item:nth-child(1):active .nav-text::after {
+.nav-text:active::after {
   position: absolute;
   left: 0;
   bottom: -1px;
