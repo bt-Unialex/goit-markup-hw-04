@@ -360,8 +360,8 @@ header .logo-secondpart {
 }
 /*-------------------------------------FOOTER----------------------------------*/
 .footer-section {
-  display: flex;
-  gap: 120px;
+  /*display: flex;
+  gap: 120px;*/
   background: #2e2f42;
   padding: 100px 248px;
 }
