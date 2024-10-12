@@ -1,8 +1,7 @@
 body {
-  width: 1440px;
   font-family: "Roboto", sans-serif;
   color: #434455; /*SLATE*/
-  background-color: #fff;
+  background-color: #ffffff;
 }
 h1,
 h2,
@@ -28,8 +27,9 @@ img {
   padding-bottom: 120px;
 }
 .container {
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .visually-hidden:not(:focus):not(:active) {
@@ -53,12 +53,9 @@ img {
   box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.header .container {
+.header-box {
   display: flex;
   justify-content: space-between;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -73,7 +70,8 @@ img {
 header .logo-secondpart {
   color: #2e2f42;
 }
-.header-nav {
+.header-nav,
+.header-addres {
   display: flex;
   align-items: center;
 }
@@ -81,12 +79,9 @@ header .logo-secondpart {
 .addres-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
-.nav-menu-item {
-  width: 100%;
-}
-.nav-text {
+.nav-link {
+  display: inline-block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -94,11 +89,11 @@ header .logo-secondpart {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-menu-item:nth-child(1) .nav-text {
+.nav-menu-item:nth-child(1) .nav-link {
   position: relative;
   color: #404bbf;
 }
-.nav-menu-item:nth-child(1) .nav-text::after {
+.nav-menu-item:nth-child(1) .nav-link::after {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -109,13 +104,13 @@ header .logo-secondpart {
   background-color: #404bbf;
   content: "";
 }
-.nav-text:hover,
-.nav-text:focus,
-.addres-text:hover,
-.addres-text:focus {
+.nav-link:hover,
+.nav-link:focus,
+.addres-link:hover,
+.addres-link:focus {
   color: #404bbf;
 }
-.addres-text {
+.addres-link {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -125,20 +120,22 @@ header .logo-secondpart {
 }
 /*-------------------------------------1 SECTION----------------------------------*/
 .title-section {
-  max-width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: #2e2f42;
+  text-align: center;
+
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
+  margin: 0 auto;
 }
 .title-text {
   max-width: 496px;
